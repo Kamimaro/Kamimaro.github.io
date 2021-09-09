@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Barra de navegação */
+
+.container {
+    background-color: #fffffa;
+    width: 100%;
+    max-height: 76px;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.nav-container { 
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    max-height: 76px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo > a > p {
+    font-size: 28px;
+    color: #00b4d8;
+    margin-left: 10px;
+}
+
+.logo > a > img {
+    max-width: 46px;
+    max-height: auto;
+}
+
+.menu-itens {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-itens > a {
+    margin-right: 60px;
+    color: #000000;
+}
+
+.menu-itens > a:nth-last-of-type(1) {
+    margin: 0;
+}
+
+.menu-itens > a:hover {
+    color: #00b4d8;
+}
+
+/* Escolha da fórmula */
+
+.selection {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    margin-top: 10%;
+    flex-wrap: wrap;
+}
+
+.formula-escolhida {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+.select-btn {
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.escolha-form {
+    display: flex;
+    text-align: center;
+    margin: 2% 5%;
+    font-size: 1.2vw;
+    padding: 2% 8%;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    color:rgba(0, 0, 0, 0.7)
+}
+
+.velvaz {
+    font-size: 1vw;
+}
+
+.escolha-form:hover {
+    background-color: #F8F7FF;
+    transition: 0.3s;
+}
+
+/* Conteúdo */
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 90%;
+}
+
+.col-1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 5%;
+}
+
+.formula {
+    color: #03045E;
+    font-size: 4em;
+    width: 100%;
+    margin-bottom: 5%;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.dados {
+    font-size: 1em;
+    width: 100%;
+}
+
+.col-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.entrada {
+    width: 90%;
+    color: #03045E;
+}
+
+.dado-entrada {
+    width: 90%;
+    border-radius: 20px;
+    height: 20%;
+    border: none;
+    background-color: hsla(190, 27%, 96%, 0.1);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 5px auto;
+    color: black;
+    outline: none;
+}
+
+.dado-entrada:hover {
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    background-color: #F8F7FF;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type=number] {
+    -moz-appearance: none;
+}
+
+.calcular {
+    width: 30%;
+    height: 15%;
+    margin-top: 5%;
+    font-size: 16px;
+    background: #fffffa;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.calcular:hover {
+    background-color: #F8F7FF;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.col-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 5%;
+    box-sizing: border-box;
+}
+
+.explicacao {
+    width: 90%;
+    font-size: 1.1em;
+}
+
+#exp1 {
+    margin-bottom: 5%;
+}
+
+#exp2 {
+    margin-top: 5%;
+}

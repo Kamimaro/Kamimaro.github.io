@@ -1,0 +1,15 @@
+<svg width="72" height="74" viewBox="0 0 72 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="21.5" y="30.5" width="29" height="13" stroke="#00B4D8"/>
+<path d="M16.5 27H21.5V47H16.5" stroke="#00B4D8"/>
+<path d="M55.5 26.5H50.5V46.5H55.5" stroke="#00B4D8"/>
+<rect x="0.5" y="12" width="19" height="5" stroke="#00B4D8"/>
+<rect x="-0.5" y="0.5" width="19" height="5" transform="matrix(-1 0 0 1 71 11)" stroke="#00B4D8"/>
+<path d="M3.5 12V6.72555C7.14137 3.58184 12.5292 3.49582 16.2722 6.55134L16.5 6.73728V12H3.5Z" stroke="#00B4D8"/>
+<path d="M68.5 11.5V6.22555C64.8586 3.08184 59.4708 2.99582 55.7278 6.05134L55.5 6.23728V11.5H68.5Z" stroke="#00B4D8"/>
+<path d="M16.5 62V67.2744C12.8586 70.4182 7.47079 70.5042 3.72778 67.4487L3.5 67.2627L3.5 62H16.5Z" stroke="#00B4D8"/>
+<path d="M55.5 61.49V66.7644C59.1414 69.9081 64.5292 69.9942 68.2722 66.9387L68.5 66.7527V61.49H55.5Z" stroke="#00B4D8"/>
+<rect x="0.5" y="57.01" width="19" height="5" stroke="#00B4D8"/>
+<rect x="-0.5" y="0.5" width="19" height="5" transform="matrix(-1 0 0 1 71 56)" stroke="#00B4D8"/>
+<path d="M17 27V17H3V57H17V47" stroke="#00B4D8"/>
+<path d="M55 26.5V16.5H69V56.5H55V46.5" stroke="#00B4D8"/>
+</svg>

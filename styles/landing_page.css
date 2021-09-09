@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Barra de navegação */
+
+.container {
+    background-color: #fffffa;
+    width: 100%;
+    max-height: 76px;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.nav-container { 
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    max-height: 76px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo > a > p {
+    font-size: 28px;
+    color: #00b4d8;
+    margin-left: 10px;
+}
+
+.logo > a > img {
+    max-width: 46px;
+    max-height: auto;
+}
+
+.menu-itens {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-itens > a {
+    margin-right: 60px;
+    color: #000000;
+}
+
+.menu-itens > a:nth-last-of-type(1) {
+    margin: 0;
+}
+
+.menu-itens > a:hover {
+    color: #00b4d8;
+}
+
+/* Conteúdo */
+
+.content {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.content > up {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.up > h1 {
+    margin-top: 180px;
+    color: #03045E;
+    width: auto;
+    text-align: center;
+    font-size: 32px;
+}
+
+.up > p {
+    color: rgba(0, 0, 0, 0.65);
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 100px;
+}
+
+.content > down {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.down {
+    display: flex;
+    margin: 0 10px;
+    justify-content: center;
+    align-content: center;
+}
+
+.down > a {
+    margin-right: 20px;
+}
+
+.down > a:nth-last-of-type(1) {
+    margin-right: 0;
+}
+
+.down > a > img {
+    max-width: 190px;
+    max-height: auto;
+}
+
+.down > a:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+.down:hover > .calc-function:not(:hover) {
+    filter: blur(1px)
+}

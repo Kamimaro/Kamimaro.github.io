@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/vazao-voltemp.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Hidro Calculus</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-container">
+            <div class="left">
+                <div class="logo">
+                    <a href="../index.html">
+                        <img src="../Images/Logo.svg" alt="">
+                        <p>Hidro Calculus</p>
+                    </a>
+                </div>
+            </div>
+            <div class="right">
+                <nav class="menu-itens">
+                    <a href="../index.html">Início</a>
+                    <a href="#">Sobre</a>
+                    <a href="#">Contato</a>
+                    <a href="#">Ajuda</a>
+                </nav>
+            </div>
+            
+        </div>
+    </div>
+    <div class="selection">
+        <div class="formula-escolhida">Escolha a fórmula desejada:</div>
+        <div class="select-btn">
+            <a class="escolha-form" href="vazao-bresse.html">Bresse</a>
+            <a class="escolha-form velvaz" href="#">Velocidade e vazão</a>
+            <a class="escolha-form" href="#">Outra</a>
+        </div>
+    </div>
+    <header class="content">
+        <div class="col-1">
+            <p class="formula">
+                <span class="vaz">Q</span>
+                <span>=</span>
+                <span class="area">V</span>
+                <span class="barra">&divide</span>
+                <span class="vel">T</span>
+            </p>
+            <p class="dados">Q = Vazão (m³/s)</p>
+            <p class="dados">V = Volume (m³)</p>
+            <p class="dados">T = Tempo (s)</p>
+        </div>
+        <div class="col-2">
+            <p class="entrada">Vazão:</p>
+            <input type="number" inputmode="numeric" class="dado-entrada vaz2" placeholder="Ex.: 1.23">
+            <p class="entrada">Volume:</p>
+            <input type="number" inputmode="numeric" class="dado-entrada area2" placeholder="Ex.: 4.56">
+            <p class="entrada">Tempo:</p>
+            <input type="number" inputmode="numeric" class="dado-entrada vel2" placeholder="Ex.: 7.89">
+            <button class="calcular">Calcular</button>
+        </div>
+        <div class="col-3">
+            <p class="explicacao" id="exp1">Campos vazios serão tratados como incógnitas.</p>
+            <p class="explicacao" id="exp2">Certifique que as unidades estejam no S.I.</p>
+        </div>
+    </header>
+</body>
+</html>
