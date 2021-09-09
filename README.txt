@@ -1,0 +1,2 @@
+Esse projeto faz parte de uma iniciativa voltada para a criação de um site capaz de resolver problemas
+hidráulicas simples e que visem facilitar o entendimento do estudante em relação à matéria de Hidráulica.
