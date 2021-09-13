@@ -32,10 +32,14 @@
             
         </div>
     </div>
+    <div class="resultados" id="menu-respostas">
+        <div class="conteudo-modal" id="coisas-respostas"></div>
+        </div>
+    </div>
     <div class="selection">
         <div class="formula-escolhida">Escolha a fórmula desejada:</div>
         <div class="select-btn">
-            <a class="escolha-form" href="#">Bresse</a>
+            <a class="escolha-form" href="vazao-bresse.html">Bresse</a>
             <a class="escolha-form velvaz" href="vazao-voltemp.html">Velocidade e vazão</a>
             <a class="escolha-form" href="#">Outra</a>
         </div>
@@ -43,11 +47,11 @@
     <header class="content">
         <div class="col-1">
             <p class="formula">
-                <span class="vaz">Q</span>
+                <span id="vaz">Q</span>
                 <span>=</span>
-                <span class="area">A</span>
+                <span id="are">A</span>
                 <span>.</span>
-                <span class="vel">V</span>
+                <span id="vel">V</span>
             </p>
             <p class="dados">Q = Vazão (m³/s)</p>
             <p class="dados">A = Área (m²)</p>
@@ -55,17 +59,22 @@
         </div>
         <div class="col-2">
             <p class="entrada">Vazão:</p>
-            <input type="number" inputmode="numeric" class="dado-entrada vaz2" placeholder="Ex.: 1.23">
+            <input type="number" inputmode="numeric" class="dado-entrada" id="vazao" placeholder="Ex.: 1.23">
             <p class="entrada">Área:</p>
-            <input type="number" inputmode="numeric" class="dado-entrada area2" placeholder="Ex.: 4.56">
+            <input type="number" inputmode="numeric" class="dado-entrada" id="area" placeholder="Ex.: 4.56">
             <p class="entrada">Velocidade:</p>
-            <input type="number" inputmode="numeric" class="dado-entrada vel2" placeholder="Ex.: 7.89">
-            <button class="calcular">Calcular</button>
+            <input type="number" inputmode="numeric" class="dado-entrada" id="velocidade" placeholder="Ex.: 7.89">
+            <button class="calcular" onclick="func_resultado()" id="calculo">Calcular</button>
         </div>
         <div class="col-3">
             <p class="explicacao" id="exp1">Campos vazios serão tratados como incógnitas.</p>
-            <p class="explicacao" id="exp2">Certifique que as unidades estejam no S.I.</p>
+            <p class="explicacao" id="exp2">Certifique-se de que as unidades estejam no S.I.</p>
         </div>
     </header>
+    <script src="../js/vazao-bresse.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <script type="text/javascript" id="MathJax-script" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.0.0/es5/latest?tex-mml-chtml.js">
+    </script>
 </body>
 </html>
