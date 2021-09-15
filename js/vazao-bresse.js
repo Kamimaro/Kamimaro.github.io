@@ -111,9 +111,13 @@ calculo.onclick = func_resultado = () => {
                                 com 2 casas decimais.</p>
                                 <p class="palavras">Então tome cuidado, X.00 é o mesmo que X,00.</p>`;
     }
+    else if (valor_vazao !== '' && valor_area !== '' && valor_velocidade !== ''){
+        modal_conteudo.innerHTML = `<p class="palavras"> É necessário deixar pelo menos um campo vazio, por favor volte
+                                    e apague um deles.</p>`;
+    }
     else{
-        modal_conteudo.innerHTML = `<p class="palavras"> Talvez você tenha inserido os dados errados, por favor
-                                    verifique novamente.</p>`;
+        modal_conteudo.innerHTML = `<p class="palavras"> Para calcular algo, pelo menos um dos campos deve estar
+                                    preenchido, por favor volte e insira um valor em algum deles.</p>`;
     }
 }
 
