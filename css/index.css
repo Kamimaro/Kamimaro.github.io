@@ -17,13 +17,13 @@
     color: #03045E;
     width: auto;
     text-align: center;
-    font-size: 32px;
+    font-size: 3.2rem;
 }
 
 .up > p {
     color: rgba(0, 0, 0, 0.65);
     text-align: center;
-    font-size: 20px;
+    font-size: 2rem;
     margin-top: 15px;
     margin-bottom: 100px;
 }
@@ -43,6 +43,7 @@
 
 .down > a {
     margin-right: 20px;
+    flex-grow: 0;
 }
 
 .down > a:nth-last-of-type(1) {
@@ -50,8 +51,7 @@
 }
 
 .down > a > img {
-    max-width: 190px;
-    max-height: auto;
+    max-width: 14vw;
 }
 
 .down > a:hover {
@@ -65,4 +65,88 @@
 
 .down:hover > .calc-function:not(:hover) {
     filter: blur(1px)
+}
+
+@media (max-width: 650px) {
+    .up > h1 {
+        margin-top: 180px;
+        color: #03045E;
+        width: auto;
+        text-align: center;
+        font-size: 2.8rem;
+    }
+
+    .up > p {
+        color: rgba(0, 0, 0, 0.65);
+        text-align: center;
+        font-size: 1.8rem;
+        margin-top: 15px;
+        margin-bottom: 100px;
+    }
+
+    .down {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .down > a {
+        margin: 5px 0;
+        flex-grow: 0;
+    }
+
+    .down > a > img {
+        max-width: 28vw;
+    }
+}
+
+@media (max-width: 450px) {
+    .up > h1 {
+        margin-top: 180px;
+        color: #03045E;
+        width: auto;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    .up > p {
+        color: rgba(0, 0, 0, 0.65);
+        text-align: center;
+        font-size: 1.6rem;
+        margin-top: 15px;
+        margin-bottom: 100px;
+    }
+
+    .down {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .down > a {
+        margin: 5px 0;
+        flex-grow: 0;
+    }
+
+    .down > a > img {
+        max-width: 48vw;
+    }
+}
+
+@media (min-height: 800px) {
+    .content {
+        height: 100vh;
+    }
+
+    .up > h1 {
+        margin-top: 30vh;
+    }
+
+    .down {
+        margin: 25vh 10px;
+    }
 }
